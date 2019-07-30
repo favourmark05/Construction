@@ -1,0 +1,321 @@
+html, body{
+  overflow-x:hidden;
+}
+
+/* this is the styling for the navbar section */
+.navbackground{
+  background-image: linear-gradient(rgb(10, 10, 10, 0.7), rgb(10, 10, 10, 0.7), rgb(10, 10, 10, 0.7)), url(images/nav-image.jpg);
+  background-attachment: fixed;
+  height: 750px;
+  background-size: cover;
+}
+.con{
+  z-index: 7;
+  margin-top: 250px;
+  position: absolute;
+}
+.pl{
+  padding-left: 150px !important;
+}
+.p-text{
+  width: 530px !important;
+}
+.py{
+  padding-top: 120px;
+  padding-left: 100px !important;
+}
+.p-text2{
+  color: rgb(187, 130, 24);
+  padding-top: 10px;
+}
+.play{
+  color: white;
+  font-size: 50px;
+  padding-left: 100px;
+}
+.bt{
+  background-color: orange !important;
+  width: 100px;
+}
+.bt:hover{
+  background: transparent !important;
+  border: 3px solid orange !important;
+  color: white !important;
+  /* transition: ease-out; */
+  /* transition-delay: 0.9s; */
+}
+.crd{
+  /* z-index: 3; */
+  position: absolute;
+  margin-top: -150px;
+}
+.just{
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+
+/* this is the styling for the upper cardsection */
+.cardSec{
+  background-color: rgb(233, 233, 233);
+  height: 500px;
+}
+.sm1{
+  padding-top: 100px;
+}
+.Tcard{
+  transition: 0s;
+}
+.Tcard:hover{
+  transform: translateY(-25px) !important;
+}
+/* this is the image transition effect */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.crdImg{
+  width: 50px;
+  height: 50px;
+  /* border: 2px solid orange; */
+}
+div.vertical-line{
+  width: 1px; 
+  background-color: black;
+  height: 100%;
+  float: left; 
+
+}
+.lab{
+  font-size: 20px;
+}
+.sml{
+  font-size: 10px;
+  /* padding-top: -10px; */
+}
+.sml1{
+  margin-top: -10px;
+}
+.text-type{
+  font-family:  'Rajdhani', sans-serif !important;
+  font-weight: 900;
+  color: #2d2d2d;
+}
+.ps{
+font-family: 'Rubik', sans-serif;
+font-size: 13px;
+line-height: 28px;
+width: 500px;
+}
+
+/* this is the styling for the sustantainability section */
+.cross{
+ margin-top: -15px !important;
+}
+.tip{
+  border-radius: 10px;
+}
+.tip2{
+  margin-left: 80px;
+}
+.hop{
+  opacity: 1;
+  filter: alpha(opacity=50);
+}
+.hop:hover{
+  opacity: 0.5; 
+  filter: alpha(opacity=1);
+}
+/* this is the morph plus setion for plus to minus */
+.blue {
+  color: #f3b007;
+  background: transparent;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  font-size: 1.5em;
+  position: relative;
+}
+
+.blue span {
+  position: absolute;
+  transition: .3s;
+  background: #f3b007;
+  border-radius: 2px;
+}
+
+.blue span:first-of-type {
+  top: 25%;
+  bottom: 25%;
+  width: 10%;
+  left: 45%;
+}
+
+.blue span:last-of-type {
+  left: 25%;
+  right: 25%;
+  height: 10%;
+  top: 45%;
+}
+
+.blue:hover span:first-of-type, button:hover span:last-of-type {
+  transform: rotate(90deg);
+}
+
+.blue:hover span:last-of-type {
+  left: 50%;
+  right: 50%;
+}
+
+/* this is the styling for the GUARANTEE section */
+
+.GUARANTEE{
+  background-color: #f5efef;
+  height: cover;
+  background-size: cover;
+}
+.hop2{
+  border-radius: 10px;
+}
+.gurantee2{
+  margin-left: -150px;
+  /* position: absolute; */
+}
+.acard{
+  color: white;
+  background-color: #f3b007;
+  font-size: 10px !important;
+  width: 100px;
+  border-radius: 5px;
+}
+.mcard{
+  position: absolute;
+  margin-top: -260px;
+  margin-left: 250px;
+  transition: 1s;
+}
+.mcard:hover{
+  transform: translatex(-25px) !important;
+}
+
+/* this is the styling for lets build together */
+
+.build{
+  background-attachment: fixed;
+  background-image: url(images/hd-5.jpg);
+  height: 490px;
+  background-size: cover;
+}
+.bh3{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 30px;
+  color: #f3b007 !important;
+  /* font-weight: 900; */
+  padding-top: 90px;
+
+}
+.poll{
+  display: inline-flex;
+}
+.team{
+color: white;
+background-color: #f3b007;
+border: none;
+border-radius: 10px;
+width: 270px;
+height: 60px;
+margin-left: 100px;
+}
+.team1{
+  /* background-color: #aa7d0a; */
+  background-size: cover;
+  font-size: 25px;
+}
+.center{
+  margin-top: 230px;
+}
+/* this is the styling for the international scale */
+.font{
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bolder;
+}
+.inter{
+  background-color: #e7e3e3d7;
+}
+
+/* this is the styling for the builds section */
+.builds{
+  background-color: #ffffff;
+}
+.push{
+  padding-top: 40px;
+}
+.psh{
+  border: 2px solid rgb(236, 230, 230);
+}
+.push li{
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bolder;
+  font-family: 'Rajdhani', sans-serif;
+}
+/* the meter styling */
+
+meter{
+  width: 300px;
+  height: 5px;
+  background-color: #f3b007 !important;
+}
+
+/* this is the styling for the brand sponsors */
+.branlogo{
+  width: 100px;
+  height: 30px;
+}
+.brandSponsor{
+  background-color: rgb(241, 239, 239);
+}
+
+/* this is the styling for the discuss with us section */
+.Discuss{
+  background-image: linear-gradient(rgb(7, 7, 7, 0.5), rgb(7, 7, 7, 0.5), rgb(7, 7, 7, 0.5)), url(images/Construction-head.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+}
+.but1{
+  margin-top: 250px;
+}
+
+/* styling for creative team */
+.textJ{
+  width: 700px !important;
+  margin-left: 210px !important;
+}
+.pm{
+  color: #f3b007;
+}
+.cid{
+  border: none !important;
+}
+/* this is the styling for the twitt section */
+.ha{
+  height: 50px;
+  width: 50px !important;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.card-body small{
+  width: 300px !important;
+}
